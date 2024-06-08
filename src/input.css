@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(../assets/fonts/Vazir-Medium.woff);
+}
+@font-face {
+    font-family: 'yekan';
+    src: url(../assets/fonts/Yekan.woff);
+}
+
+@font-face {
+    font-family: 'shabnam';
+    src: url(../assets/fonts/Shabnam-Bold.woff);
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

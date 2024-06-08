@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'vazir';
+
+  src: url(../assets/fonts/Vazir-Medium.woff);
+}
+
+@font-face {
+  font-family: 'yekan';
+
+  src: url(../assets/fonts/Yekan.woff);
+}
+
+@font-face {
+  font-family: 'shabnam';
+
+  src: url(../assets/fonts/Shabnam-Bold.woff);
+}
+
 /*
 ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
@@ -1981,6 +1999,14 @@ video {
   vertical-align: super;
 }
 
+.font-shabnam {
+  font-family: shabnam, sans-serif;
+}
+
+.font-vazir {
+  font-family: vazir, sans-serif;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2060,11 +2086,6 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .underline {

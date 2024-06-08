@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'vazir': ['vazir','sans-serif'],
+        'yekan': ['yekan','sans-serif'],
+        'shabnam': ['shabnam','sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
