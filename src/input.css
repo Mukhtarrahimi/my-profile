@@ -32,3 +32,7 @@
     background-position: center;
 
 }
+
+.active{
+    @apply text-white;
+}
