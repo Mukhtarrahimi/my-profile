@@ -1,17 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/img/logo.png">
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/logo.png" />
     <!-- style link  -->
-    <link rel="stylesheet" href="./src/output.css">
-    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./src/input.css" />
     <!-- font-awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>my-profile</title>
-</head>
-<body class="w-full h-screen bg-gradient-to-r from-violet-400 to-purple-300">
-    
-</body>
+  </head>
+  <body class="w-full bg-gradient-to-r from-violet-400 to-purple-300">
+    <div class="container w-full h-screen flex items-center justify-center">
+      <!-- header  -->
+      <div class="header flex gap-10">
+        <!-- home  -->
+        <button class="btn-container group">
+          <i class="fa fa-home"></i>
+          <div class="absolute -top-9 -right-[6px] hidden group-hover:block ">
+            <span
+              class="btn-title"
+              >خانه</span
+            >
+            <span
+              class="btn-label"
+            ></span>
+          </div>
+        </button>
+        <!-- work  -->
+        <button class="btn-container group">
+          <i class="fa fa-folder"></i>
+          <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
+            <span
+              class="btn-title"
+              >پروژه</span
+            >
+            <span
+              class="btn-label"
+            ></span>
+          </div>
+        </button>
+        <!-- contact  -->
+        <button class="btn-container group">
+          <i class="fa fa-envelope"></i>
+          <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
+            <span
+              class="btn-title"
+              >ارتباط</span
+            >
+            <span
+              class="btn-label"
+            ></span>
+          </div>
+        </button>
+        <!-- skills -->
+        <button class="btn-container group">
+          <i class="fa fa-cogs"></i>
+          <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
+            <span
+              class="btn-title"
+              >مهارت</span
+            >
+            <span
+              class="btn-label"
+            ></span>
+          </div>
+        </button>
+        
+      </div>
+    </div>
+  </body>
 </html>

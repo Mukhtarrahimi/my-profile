@@ -14,3 +14,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-container {
+    @apply relative text-white/60 text-xl cursor-pointer;
+}
+.btn-title{
+    @apply bg-black text-white text-sm font-vazir z-10 px-1.5 py-[0.3px] rounded relative;
+}
+.btn-label{
+    @apply w-2 h-2 bg-black block absolute -bottom-1 -z-10 rotate-45 right-[14px];
+}
