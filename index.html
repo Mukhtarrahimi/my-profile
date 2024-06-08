@@ -18,63 +18,55 @@
     <title>my-profile</title>
   </head>
   <body class="w-full bg-gradient-to-r from-violet-400 to-purple-300">
-    <div class="container w-full h-screen flex items-center justify-center">
+    <div
+      class="container w-full h-screen flex items-center justify-center flex-col"
+    >
       <!-- header  -->
-      <div class="header flex gap-10">
+      <div class="header flex items-center justify-center gap-10">
         <!-- home  -->
         <button class="btn-container group">
-          <i class="fa fa-home"></i>
-          <div class="absolute -top-9 -right-[6px] hidden group-hover:block ">
-            <span
-              class="btn-title"
-              >خانه</span
-            >
-            <span
-              class="btn-label"
-            ></span>
+          <i class="fa fa-home text-2xl"></i>
+          <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
+            <span class="btn-title">خانه</span>
+            <span class="btn-label"></span>
           </div>
         </button>
         <!-- work  -->
         <button class="btn-container group">
-          <i class="fa fa-folder"></i>
+          <i class="fa fa-folder text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
-            <span
-              class="btn-title"
-              >پروژه</span
-            >
-            <span
-              class="btn-label"
-            ></span>
+            <span class="btn-title">پروژه</span>
+            <span class="btn-label"></span>
           </div>
         </button>
         <!-- contact  -->
         <button class="btn-container group">
-          <i class="fa fa-envelope"></i>
+          <i class="fa fa-envelope text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
-            <span
-              class="btn-title"
-              >ارتباط</span
-            >
-            <span
-              class="btn-label"
-            ></span>
+            <span class="btn-title">ارتباط</span>
+            <span class="btn-label"></span>
           </div>
         </button>
         <!-- skills -->
         <button class="btn-container group">
-          <i class="fa fa-cogs"></i>
+          <i class="fa fa-cogs text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
-            <span
-              class="btn-title"
-              >مهارت</span
-            >
-            <span
-              class="btn-label"
-            ></span>
+            <span class="btn-title">مهارت</span>
+            <span class="btn-label"></span>
           </div>
         </button>
-        
       </div>
+      <!-- mian section  -->
+      <section class="home w-[90%] md:w-[80%] lg:w-[60%]  bg-white mt-4 rounded flex overflow-hidden">
+        <div class="home-right w-[70%] p-6 md:p-10 lg:p-12">
+            <h2 class="font-shabnam text-2xl text-blue-600">مختار رحیمی</h2>
+            <p class="font-yekanf text-gray-600 pt-2 leading-6 indent-1">👋سلام، من مختار رحیمی توسعه دهنده وب  هستم. دو سال می گذرد، من به عنوان توسعه دهنده وب کار می کنم.
+                من فارغ التحصیل شده رشته کامپیوتر ساینس هستم.
+                </p>
+        </div>
+        <div class="home-left w-[40%] img">
+        </div>
+      </section>
     </div>
   </body>
 </html>
