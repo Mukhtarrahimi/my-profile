@@ -24,15 +24,21 @@
       <!-- header  -->
       <div class="header flex items-center justify-center gap-10">
         <!-- home  -->
-        <button onclick="opentab('home')" class="home-btn tab-links active-link btn-container group">
-          <i class="fa fa-home  text-2xl"></i>
+        <button
+          onclick="opentab('home')"
+          class="home-btn tab-links active-link btn-container group relative"
+        >
+          <i class="fa fa-home text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">خانه</span>
             <span class="btn-label"></span>
           </div>
         </button>
         <!-- work  -->
-        <button onclick="opentab('work')" class="work-btn tab-links btn-container group">
+        <button
+          onclick="opentab('work')"
+          class="work-btn tab-links btn-container group"
+        >
           <i class="fa fa-folder text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">پروژه</span>
@@ -40,7 +46,10 @@
           </div>
         </button>
         <!-- contact  -->
-        <button onclick="opentab('contact')" class="contact-btn tab-links btn-container group">
+        <button
+          onclick="opentab('contact')"
+          class="contact-btn tab-links btn-container group"
+        >
           <i class="fa fa-envelope text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">ارتباط</span>
@@ -48,7 +57,10 @@
           </div>
         </button>
         <!-- skills -->
-        <button onclick="opentab('skill')" class="skill-btn tab-links btn-container group">
+        <button
+          onclick="opentab('skill')"
+          class="skill-btn tab-links btn-container group"
+        >
           <i class="fa fa-cogs text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">مهارت</span>
@@ -57,13 +69,11 @@
         </button>
       </div>
       <!-- mian section  -->
-      <section 
-      id="home"  class="home tab-contents active-tab w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex relative"
+      <section
+        id="home"
+        class="home tab-contents active-tab w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded  overflow-hidden"
       >
-        <label
-          class="absolute -top-1 rotate-45 -z-20 right-[273px] w-6 h-6 bg-white"
-        ></label>
-        <div class="home-right w-[70%] p-6 md:p-10 lg:p-12">
+        <div class="home-right p-6 md:p-10 lg:p-12">
           <h2 class="font-shabnam text-2xl text-blue-600">مختار رحیمی</h2>
           <p class="font-yekan text-gray-600 pt-2 leading-6 indent-1">
             👋سلام، من مختار رحیمی توسعه دهنده وب هستم. دو سال می گذرد، من به
@@ -71,15 +81,14 @@
             ساینس هستم.
           </p>
         </div>
-        <div class="overflow-hidden home-left w-[40%] profile-img"></div>
+        <div class=" img w-full h-96">
+        </div>
       </section>
       <!-- project section  -->
       <section
-       id="work" class="work tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+        id="work"
+        class="work tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
-        <label
-          class="absolute -top-1 rotate-45 -z-20 right-[338px] w-6 h-6 bg-white"
-        ></label>
         <div class="description p-6 border-b">
           <h2 class="text-2xl font-shabnam text-gray-800">نمونه کار ها</h2>
           <p class="font-yekan text-gray-600">
@@ -232,11 +241,9 @@
 
       <!-- contact section  -->
       <section
-      id="contact"  class="contact tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+        id="contact"
+        class="contact tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
-        <label
-          class="absolute -top-1 rotate-45 -z-20 right-[403px] w-6 h-6 bg-white"
-        ></label>
         <div class="description p-6 border-b">
           <h2 class="text-2xl font-shabnam text-gray-800">ارتباط با من</h2>
           <p class="font-yekan text-gray-600">
@@ -289,19 +296,35 @@
       </section>
 
       <!-- skills section  -->
-      <section
-      id="skill"  class="skill tab-contents  w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+      <sectionIn
+        this
+        code,
+        how
+        do
+        I
+        make
+        the
+        label
+        to
+        be
+        placed
+        only
+        under
+        each
+        section
+        in
+        any
+        size
+        id="skill"
+        class="skill tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
-        <label
-          class="absolute -top-1 rotate-45 -z-20 right-[473px] w-6 h-6 bg-white"
-        ></label>
         <div class="description p-6 border-b">
           <h2 class="text-2xl font-shabnam text-gray-800">
             مجموعه مهارت های من
           </h2>
         </div>
         <!-- skill  -->
-        <div class=" w-full mx-auto p-6" id="skill">
+        <div class="w-full mx-auto p-6" id="skill">
           <div
             class="w-full grid grid-cols-4 md:grid-cols-8 gap-6 items-center justify-center"
           >
@@ -364,7 +387,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </sectionIn>
     </div>
 
     <script src="src/app.js"></script>
