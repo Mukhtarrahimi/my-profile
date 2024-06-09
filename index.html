@@ -57,18 +57,37 @@
         </button>
       </div>
       <!-- mian section  -->
-      <section class="home w-[90%] md:w-[80%] lg:w-[60%]  bg-white mt-4 rounded flex  relative">
-        <div class="absolute -top-1 rotate-45 -z-20 right-[273px] w-6 h-6 bg-white"></div>
+      <section
+        class="home hidden  w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex relative"
+      >
+        <label class="absolute -top-1 rotate-45 -z-20 right-[273px] w-6 h-6 bg-white"></label>
         <div class="home-right w-[70%] p-6 md:p-10 lg:p-12">
-
-            <h2 class="font-shabnam text-2xl text-blue-600">مختار رحیمی</h2>
-            <p class="font-yekanf text-gray-600 pt-2 leading-6 indent-1">👋سلام، من مختار رحیمی توسعه دهنده وب  هستم. دو سال می گذرد، من به عنوان توسعه دهنده وب کار می کنم.
-                من فارغ التحصیل شده رشته کامپیوتر ساینس هستم.
-                </p>
+          <h2 class="font-shabnam text-2xl text-blue-600">مختار رحیمی</h2>
+          <p class="font-yekan text-gray-600 pt-2 leading-6 indent-1">
+            👋سلام، من مختار رحیمی توسعه دهنده وب هستم. دو سال می گذرد، من به
+            عنوان توسعه دهنده وب کار می کنم. من فارغ التحصیل شده رشته کامپیوتر
+            ساینس هستم.
+          </p>
         </div>
-        <div class="overflow-hidden home-left w-[40%] img">
-        </div>
+        <div class="overflow-hidden home-left w-[40%] profile-img"></div>
       </section>
+      <!-- project section  -->
+      <section class="home w-[90%] md:w-[80%] lg:w-[60%]  bg-white mt-4 rounded flex flex-col  relative">
+          <label class="absolute -top-1 rotate-45 -z-20 right-[338px] w-6 h-6 bg-white"></label>
+       <div class="description p-6 border-b">
+        <h2 class="text-2xl font-shabnam text-gray-800">نمونه کار ها</h2>
+        <p class="font-yekan text-gray-600 ">دراین قسمت شما تمام پروژه های که بنده کار کردم را دیده میتوانید.</p>
+       </div>
+        <div class="project-container p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-4">
+            <div class="project w-52 overflow-hidden bg-gray-100 shadow-md p-4 rounded-lg flex flex-col items-center justify-center cursor-pointer group duration-1000">
+                <div class="img rounded-lg overflow-hidden">
+                    <img class=" w-full h-32 object-cover" src="./assets/img/project/Screenshot 2024-06-07 173713.png" alt="">
+                </div>
+                <h2 class="text-xl font-shabnam text-teal-500 mt-2">ماشین حساب</h2>
+                <p class="text-sm hidden group-hover:block duration-1000 transition-all font-yekan text-gray-500">این ماشین حساب با استفاده از React js و Tailwindcss بشکل ساده و با دیزاین خوب طراحی شده است.</p>
+            </div>
+        </div>
+        <section>
     </div>
   </body>
 </html>
