@@ -2736,6 +2736,14 @@ video {
   display: block;
 }
 
+.tab-contents {
+  display: none;
+}
+
+.tab-contents.active-tab {
+  display: block;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

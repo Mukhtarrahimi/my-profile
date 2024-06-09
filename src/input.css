@@ -50,3 +50,11 @@
 .skill-icon-name{
     @apply absolute -top-4 left-0 text-gray-600 text-sm hidden group-hover:block duration-300
 }
+
+
+.tab-contents{
+    @apply hidden
+}
+.tab-contents.active-tab{
+    @apply block
+}

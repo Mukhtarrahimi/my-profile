@@ -24,15 +24,15 @@
       <!-- header  -->
       <div class="header flex items-center justify-center gap-10">
         <!-- home  -->
-        <button class="btn-container group">
-          <i class="fa fa-home text-white text-2xl"></i>
+        <button  class="home-btn tab-links active btn-container group">
+          <i class="fa fa-home  text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">خانه</span>
             <span class="btn-label"></span>
           </div>
         </button>
         <!-- work  -->
-        <button class="btn-container group">
+        <button class="work-btn tab-links btn-container group">
           <i class="fa fa-folder text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">پروژه</span>
@@ -40,7 +40,7 @@
           </div>
         </button>
         <!-- contact  -->
-        <button class="btn-container group">
+        <button class="contact-btn tab-links btn-container group">
           <i class="fa fa-envelope text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">ارتباط</span>
@@ -48,7 +48,7 @@
           </div>
         </button>
         <!-- skills -->
-        <button class="btn-container group">
+        <button class="skill-btn tab-links btn-container group">
           <i class="fa fa-cogs text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">مهارت</span>
@@ -58,7 +58,7 @@
       </div>
       <!-- mian section  -->
       <section
-        class="home hidden w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex relative"
+        class="home w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex relative"
       >
         <label
           class="absolute -top-1 rotate-45 -z-20 right-[273px] w-6 h-6 bg-white"
@@ -75,7 +75,7 @@
       </section>
       <!-- project section  -->
       <section
-        class="home hidden w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+        class="work tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
         <label
           class="absolute -top-1 rotate-45 -z-20 right-[338px] w-6 h-6 bg-white"
@@ -232,7 +232,7 @@
 
       <!-- contact section  -->
       <section
-        class="contact  w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+        class="contact tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
         <label
           class="absolute -top-1 rotate-45 -z-20 right-[403px] w-6 h-6 bg-white"
@@ -290,43 +290,34 @@
 
       <!-- skills section  -->
       <section
-        class="skills hidden  w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+        class="skill tab-contents  w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
         <label
           class="absolute -top-1 rotate-45 -z-20 right-[473px] w-6 h-6 bg-white"
         ></label>
         <div class="description p-6 border-b">
-          <h2 class="text-2xl font-shabnam text-gray-800">مجموعه مهارت های من</h2>
-        
+          <h2 class="text-2xl font-shabnam text-gray-800">
+            مجموعه مهارت های من
+          </h2>
         </div>
         <!-- skill  -->
-        <div class="tab-contents w-full mx-auto p-6" id="skill">
-          <div class="w-full grid grid-cols-4 md:grid-cols-8 gap-6 items-center justify-center">
+        <div class=" w-full mx-auto p-6" id="skill">
+          <div
+            class="w-full grid grid-cols-4 md:grid-cols-8 gap-6 items-center justify-center"
+          >
             <!-- html  -->
             <div class="html skill-icon group">
-              <img
-                src="./assets/img/html logo.png"
-                alt=""
-                class="w-full p-2"
-              />
+              <img src="./assets/img/html logo.png" alt="" class="w-full p-2" />
               <p class="skill-icon-name">HTML</p>
             </div>
             <!-- css  -->
             <div class="css skill-icon group">
-              <img
-                src="./assets/img/css logo.png"
-                alt=""
-                class="w-full p-2"
-              />
+              <img src="./assets/img/css logo.png" alt="" class="w-full p-2" />
               <p class="skill-icon-name">CSS</p>
             </div>
             <!-- javascript -->
             <div class="js skill-icon group">
-              <img
-                src="./assets/img/js logo.png"
-                alt=""
-                class="w-full p-2"
-              />
+              <img src="./assets/img/js logo.png" alt="" class="w-full p-2" />
               <p class="skill-icon-name">JavaScript</p>
             </div>
             <!-- tailwindcss  -->
@@ -346,7 +337,6 @@
                 class="w-full p-2"
               />
               <p class="skill-icon-name">Bootstrap</p>
-
             </div>
             <!-- react  -->
             <div class="react skill-icon group">
@@ -357,7 +347,7 @@
               />
               <p class="skill-icon-name">React</p>
             </div>
-            
+
             <!-- figma  -->
             <div class="figma skill-icon group">
               <img
@@ -366,21 +356,17 @@
                 class="w-full p-2"
               />
               <p class="skill-icon-name">Figma</p>
-
             </div>
             <!-- git  -->
             <div class="git skill-icon group">
-              <img
-                src="./assets/img/git logo.png"
-                alt=""
-                class="w-full p-2"
-              />
+              <img src="./assets/img/git logo.png" alt="" class="w-full p-2" />
               <p class="skill-icon-name">Git</p>
-
             </div>
           </div>
         </div>
       </section>
     </div>
+
+    <script src="src/app.js"></script>
   </body>
 </html>
