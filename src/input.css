@@ -33,7 +33,7 @@
 
 }
 
-.active{
+.active-link{
     @apply text-white;
 }
 .project{

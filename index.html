@@ -19,12 +19,12 @@
   </head>
   <body class="w-full bg-gradient-to-r from-violet-400 to-purple-300">
     <div
-      class="container w-full my-10 flex items-center justify-center flex-col"
+      class="container w-full mt-32 mb-10 flex items-center justify-center flex-col"
     >
       <!-- header  -->
       <div class="header flex items-center justify-center gap-10">
         <!-- home  -->
-        <button  class="home-btn tab-links active btn-container group">
+        <button onclick="opentab('home')" class="home-btn tab-links active-link btn-container group">
           <i class="fa fa-home  text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">خانه</span>
@@ -32,7 +32,7 @@
           </div>
         </button>
         <!-- work  -->
-        <button class="work-btn tab-links btn-container group">
+        <button onclick="opentab('work')" class="work-btn tab-links btn-container group">
           <i class="fa fa-folder text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">پروژه</span>
@@ -40,7 +40,7 @@
           </div>
         </button>
         <!-- contact  -->
-        <button class="contact-btn tab-links btn-container group">
+        <button onclick="opentab('contact')" class="contact-btn tab-links btn-container group">
           <i class="fa fa-envelope text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">ارتباط</span>
@@ -48,7 +48,7 @@
           </div>
         </button>
         <!-- skills -->
-        <button class="skill-btn tab-links btn-container group">
+        <button onclick="opentab('skill')" class="skill-btn tab-links btn-container group">
           <i class="fa fa-cogs text-2xl"></i>
           <div class="absolute -top-9 -right-[6px] hidden group-hover:block">
             <span class="btn-title">مهارت</span>
@@ -57,8 +57,8 @@
         </button>
       </div>
       <!-- mian section  -->
-      <section
-        class="home w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex relative"
+      <section 
+      id="home"  class="home tab-contents active-tab w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex relative"
       >
         <label
           class="absolute -top-1 rotate-45 -z-20 right-[273px] w-6 h-6 bg-white"
@@ -75,7 +75,7 @@
       </section>
       <!-- project section  -->
       <section
-        class="work tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+       id="work" class="work tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
         <label
           class="absolute -top-1 rotate-45 -z-20 right-[338px] w-6 h-6 bg-white"
@@ -232,7 +232,7 @@
 
       <!-- contact section  -->
       <section
-        class="contact tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+      id="contact"  class="contact tab-contents w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
         <label
           class="absolute -top-1 rotate-45 -z-20 right-[403px] w-6 h-6 bg-white"
@@ -290,7 +290,7 @@
 
       <!-- skills section  -->
       <section
-        class="skill tab-contents  w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+      id="skill"  class="skill tab-contents  w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
         <label
           class="absolute -top-1 rotate-45 -z-20 right-[473px] w-6 h-6 bg-white"

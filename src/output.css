@@ -783,6 +783,18 @@ video {
   margin-top: 1rem;
 }
 
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2252,11 +2264,6 @@ video {
   color: rgb(99 102 241 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -2673,7 +2680,7 @@ video {
   background-position: center;
 }
 
-.active {
+.active-link {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
