@@ -232,7 +232,7 @@
 
       <!-- contact section  -->
       <section
-        class="contact w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+        class="contact  w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
       >
         <label
           class="absolute -top-1 rotate-45 -z-20 right-[403px] w-6 h-6 bg-white"
@@ -243,45 +243,143 @@
             در این قسمت شما میتوانید راه های ارتباط با من را ببیند.
           </p>
         </div>
-        <form class=" p-6 flex flex-col gap-4">
-            <div class="input-group flex gap-4">
-                <input class="input" type="text" placeholder="نام و نام خانوادگی" />
-                <input class="input" type="text" placeholder="ایمیل" />
-            </div>
-            <div class="input-group">
-                <input class="input" type="text" placeholder="موضوع پیام">
-            </div>
-            <div class="input-group">
-                <textarea class="w-full bg-gray-200 rounded pt-2 pb-16 px-3 font-yekan text-sm" placeholder="متن پیام"></textarea>
-            </div>
-            <div class="flex gap-4 items-center justify-center">
-                <a href="https://www.facebook.com/mukhtarhussain.rahimi.7?mibextid=kFxxJD"
-                  ><i
-                    class="fa-brands fa-square-facebook text-2xl text-gray-600 hover:text-gray-800 duration-500"
-                  ></i
-                ></a>
-                <a href="https://wa.me/93787999084"
-                  ><i
-                    class="fa-brands fa-square-whatsapp text-2xl text-gray-600 hover:text-gray-800 duration-500"
-                  ></i
-                ></a>
-                <a href=""
-                  ><i
-                    class="fa-brands fa-telegram text-2xl text-gray-600 hover:text-gray-800 duration-500"
-                  ></i
-                ></a>
-                <a href="https://github.com/Rahimi-Code"
-                  ><i
-                    class="fa-brands fa-square-github text-2xl text-gray-600 hover:text-gray-800 duration-500"
-                  ></i
-                ></a>
-                <a href=""
-                  ><i
-                    class="fa-brands fa-linkedin text-2xl text-gray-600 hover:text-gray-800 duration-500"
-                  ></i
-                ></a>
-              </div>
+        <form class="p-6 flex flex-col gap-4">
+          <div class="input-group flex gap-4">
+            <input class="input" type="text" placeholder="نام و نام خانوادگی" />
+            <input class="input" type="text" placeholder="ایمیل" />
+          </div>
+          <div class="input-group">
+            <input class="input" type="text" placeholder="موضوع پیام" />
+          </div>
+          <div class="input-group">
+            <textarea
+              class="w-full bg-gray-200 rounded pt-2 pb-16 px-3 font-yekan text-sm"
+              placeholder="متن پیام"
+            ></textarea>
+          </div>
+          <div class="flex gap-4 items-center justify-center">
+            <a
+              href="https://www.facebook.com/mukhtarhussain.rahimi.7?mibextid=kFxxJD"
+              ><i
+                class="fa-brands fa-square-facebook text-2xl text-gray-600 hover:text-gray-800 duration-500"
+              ></i
+            ></a>
+            <a href="https://wa.me/93787999084"
+              ><i
+                class="fa-brands fa-square-whatsapp text-2xl text-gray-600 hover:text-gray-800 duration-500"
+              ></i
+            ></a>
+            <a href=""
+              ><i
+                class="fa-brands fa-telegram text-2xl text-gray-600 hover:text-gray-800 duration-500"
+              ></i
+            ></a>
+            <a href="https://github.com/Rahimi-Code"
+              ><i
+                class="fa-brands fa-square-github text-2xl text-gray-600 hover:text-gray-800 duration-500"
+              ></i
+            ></a>
+            <a href=""
+              ><i
+                class="fa-brands fa-linkedin text-2xl text-gray-600 hover:text-gray-800 duration-500"
+              ></i
+            ></a>
+          </div>
         </form>
+      </section>
+
+      <!-- skills section  -->
+      <section
+        class="skills hidden  w-[90%] md:w-[80%] lg:w-[60%] bg-white mt-4 rounded flex flex-col relative"
+      >
+        <label
+          class="absolute -top-1 rotate-45 -z-20 right-[473px] w-6 h-6 bg-white"
+        ></label>
+        <div class="description p-6 border-b">
+          <h2 class="text-2xl font-shabnam text-gray-800">مجموعه مهارت های من</h2>
+        
+        </div>
+        <!-- skill  -->
+        <div class="tab-contents w-full mx-auto p-6" id="skill">
+          <div class="w-full grid grid-cols-4 md:grid-cols-8 gap-6 items-center justify-center">
+            <!-- html  -->
+            <div class="html skill-icon group">
+              <img
+                src="./assets/img/html logo.png"
+                alt=""
+                class="w-full p-2"
+              />
+              <p class="skill-icon-name">HTML</p>
+            </div>
+            <!-- css  -->
+            <div class="css skill-icon group">
+              <img
+                src="./assets/img/css logo.png"
+                alt=""
+                class="w-full p-2"
+              />
+              <p class="skill-icon-name">CSS</p>
+            </div>
+            <!-- javascript -->
+            <div class="js skill-icon group">
+              <img
+                src="./assets/img/js logo.png"
+                alt=""
+                class="w-full p-2"
+              />
+              <p class="skill-icon-name">JavaScript</p>
+            </div>
+            <!-- tailwindcss  -->
+            <div class="tailwind skill-icon group">
+              <img
+                src="./assets/img/tailiwind logo.png"
+                alt=""
+                class="w-full p-2"
+              />
+              <p class="skill-icon-name">Tailwind</p>
+            </div>
+            <!-- bootstrap  -->
+            <div class="bootstrap skill-icon group">
+              <img
+                src="./assets/img/bootstrap logo.png"
+                alt=""
+                class="w-full p-2"
+              />
+              <p class="skill-icon-name">Bootstrap</p>
+
+            </div>
+            <!-- react  -->
+            <div class="react skill-icon group">
+              <img
+                src="./assets/img/react logo.png"
+                alt=""
+                class="w-full p-2"
+              />
+              <p class="skill-icon-name">React</p>
+            </div>
+            
+            <!-- figma  -->
+            <div class="figma skill-icon group">
+              <img
+                src="./assets/img/figma logo.png"
+                alt=""
+                class="w-full p-2"
+              />
+              <p class="skill-icon-name">Figma</p>
+
+            </div>
+            <!-- git  -->
+            <div class="git skill-icon group">
+              <img
+                src="./assets/img/git logo.png"
+                alt=""
+                class="w-full p-2"
+              />
+              <p class="skill-icon-name">Git</p>
+
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </body>
